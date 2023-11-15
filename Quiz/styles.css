@@ -1,0 +1,10 @@
+/* Global body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Initially hide the quiz container until the start button is clicked */
+#quiz-container {
+    display: none;
+}

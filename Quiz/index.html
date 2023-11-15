@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive design meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Quiz</title>
+    <!-- Link to the external CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Quiz title -->
+    <h2>Simple JavaScript Quiz</h2>
+    <!-- Start button for the quiz -->
+    <button id="start-button">Start Quiz</button>
+
+    <!-- Quiz container that will hold the questions and options -->
+    <div id="quiz-container">
+        <!-- Paragraph element where the question will be displayed -->
+        <p id="question"></p>
+        <!-- Options for the current question with inline click event handlers to check the answer -->
+        <button onclick="checkAnswer('a')">A) <span id="option-a"></span></button>
+        <button onclick="checkAnswer('b')">B) <span id="option-b"></span></button>
+        <button onclick="checkAnswer('c')">C) <span id="option-c"></span></button>
+        <!-- Feedback paragraph for correct/incorrect answer notification -->
+        <p id="feedback"></p>
+    </div>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
